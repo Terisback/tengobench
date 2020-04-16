@@ -19,8 +19,13 @@ func main() {
 		formatNum(execCommand("gofib")),
 		formatNum(execCommand("gofibtc")))
 
+	// Wren
+	fmt.Printf("| [**Wrengo**](https://github.com/Terisback/wrengo) | `%sms` | `%sms` | Wren VM on Go |\n",
+		formatNum(execCommand("wrengo", dir+"fib.wren")),
+		formatNum(execCommand("wrengo", dir+"fibtc.wren")))
+
 	// Tengo
-	fmt.Printf("| [**Tengo**](https://github.com/d5/tengo) | `%sms` | `%sms` | VM on Go |\n",
+	fmt.Printf("| [Tengo](https://github.com/d5/tengo) | `%sms` | `%sms` | VM on Go |\n",
 		formatNum(execCommand("tengo", dir+"/fib.tengo")),
 		formatNum(execCommand("tengo", dir+"/fibtc.tengo")))
 

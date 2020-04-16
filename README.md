@@ -1,9 +1,10 @@
-# Tengo Language Benchmark
+# Wrengo Language Benchmark
 
 To run the benchmark, you will need the following tools installed in your PATH.
 
 - Python
 - Lua
+- [Wrengo](https://github.com/Terisback/wrengo) `go get github.com/Terisback/wrengo/cmd/wrengo`
 - [Tengo](https://github.com/d5/tengo): `go install github.com/d5/tengo/cmd/tengo`
 - [GopherLua](https://github.com/yuin/gopher-lua): `go get github.com/yuin/gopher-lua/cmd/glua`
 - [otto](https://github.com/robertkrimen/otto): `go get github.com/robertkrimen/otto/otto`
@@ -27,4 +28,4 @@ To start the benchmark:
 make start
 ```
 
-You can see all the source codes used in this benchmark in [code](https://github.com/d5/tengobench/tree/master/code) directory.
+You can see all the source codes used in this benchmark in [code](https://github.com/Terisback/tengobench/tree/master/code) directory.
