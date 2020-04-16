@@ -1,11 +1,11 @@
 setup:
 	go install github.com/Terisback/wrengo/cmd/wrengo
 	go install github.com/d5/tengo/cmd/tengo
-	go install github.com/Terisback/tengobench/cmd/gofib
-	go install github.com/Terisback/tengobench/cmd/gofibtc
+	go install github.com/Terisback/wrengobench/cmd/gofib
+	go install github.com/Terisback/wrengobench/cmd/gofibtc
 	go get github.com/yuin/gopher-lua/cmd/glua
 	go get github.com/robertkrimen/otto/otto
-	go get github.com/Terisback/tengobench/cmd/go-lua
+	go get github.com/Terisback/wrengobench/cmd/go-lua
 	go get github.com/mattn/anko
 	go get go.starlark.net/cmd/starlark
 	go get github.com/go-python/gpython

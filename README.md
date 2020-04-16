@@ -1,4 +1,4 @@
-# Wrengo Language Benchmark
+# Wrengo VM Benchmark
 
 To run the benchmark, you will need the following tools installed in your PATH.
 
@@ -28,4 +28,4 @@ To start the benchmark:
 make start
 ```
 
-You can see all the source codes used in this benchmark in [code](https://github.com/Terisback/tengobench/tree/master/code) directory.
+You can see all the source codes used in this benchmark in [code](https://github.com/Terisback/wrengobench/tree/master/code) directory.
